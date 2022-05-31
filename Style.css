@@ -1,0 +1,18 @@
+
+.form-group{
+    padding: 10px;
+}
+.Proffesional {background-color: #e6f6f7;}
+.Basic{background-color: #dffae2;}
+.WorkHistory{
+    background-color: #f4f0fa;
+}
+.collectbox{
+      border-radius: 10px;
+      padding: 20px;
+      margin-bottom: 30px;
+}
+
+li{
+    padding: 5px;
+}

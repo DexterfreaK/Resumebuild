@@ -1,0 +1,79 @@
+
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    font-family: 'Saira Semi Condensed';
+    width: 1100px;
+}
+.Resume {
+
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+
+}
+.leftside{
+    padding: 30px;
+}
+.leftside{
+    color: #5B6B7A;
+   min-height: 1000px;
+}
+
+.rightside{
+    background-color: #5B6B7A;
+    color: white;
+    min-height: 1000px;
+}
+/* rightside */
+
+.Header{
+    text-transform: uppercase;
+    border-bottom: solid #5B6B7A 2px;
+}
+.pointers{
+    margin-top: 30px;
+}
+.pointers h4 {
+    border-bottom: solid #5B6B7A 1px;
+    
+}
+.title{
+    font-weight: bold;
+    color: black;
+}
+.Workdetails{
+    margin: 10px;
+    padding: 10px;
+}
+.workcontent{
+    margin-top: 5px;
+}
+/* rightsideEnd */
+/* Leftside */
+
+.Details{
+    padding: 30px;
+
+}
+img{
+    padding: 3px;
+    margin: 5px;
+    background-color: white;
+    border-radius: 50%;
+}
+.loc,.Phno,.email{
+    padding: 10px;
+}
+.bottom-right h2 {
+    border-bottom: solid white 2px;
+
+}
+.bottom-right{
+    padding: 10px;
+}
+
+
+
+
+/* LeftsideEnd */
