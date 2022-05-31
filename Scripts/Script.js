@@ -22,7 +22,7 @@ function NewDatafield(name,list,type = true ){
     if(type)
     _.innerHTML += `<li> <input type="text" class="form-control mt-3 " id="${name}" placeholder="${name}"></li>`;
     else
-        _.innerHTML += `<li><textarea class="form-control" id="workhis" rows="3"></textarea></li>`;
+        _.innerHTML += `<li><textarea class="form-control" id="workhis" rows="5"></textarea></li>`;
 }
 
 function returnlist(id){
