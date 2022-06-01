@@ -1,6 +1,6 @@
 
 function GetData() {
-
+    
     const data =  {
         Name: document.getElementById("Name").value,
         Email : document.getElementById("Email").value,
@@ -15,6 +15,13 @@ function GetData() {
     const data_string =  JSON.stringify(data);
     console.log(data_string);
     localStorage.setItem('data_string', data_string);
+    var choices = document.getElementsByName('inlineRadioOptions');
+
+        if(choices[0].checked)
+            window.open('Resume.html');
+        else if(choices[1].checked)
+            window.open('/', "_self");
+    
 }
 
 function NewDatafield(name,list,type = true ){
