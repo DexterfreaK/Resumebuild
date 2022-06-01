@@ -16,11 +16,12 @@ function GetData() {
     console.log(data_string);
     localStorage.setItem('data_string', data_string);
     var choices = document.getElementsByName('inlineRadioOptions');
-
+        console.log(choices[0].checked);
+        console.log(choices[1].checked);
         if(choices[0].checked)
             window.open('Resume.html');
-        else if(choices[1].checked)
-            window.open('/', "_self");
+        if(choices[1].checked)
+            window.open('Resume2.html');
     
 }
 

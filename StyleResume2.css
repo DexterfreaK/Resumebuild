@@ -1,0 +1,60 @@
+
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h4{
+    color: rgb(0,0,0,0.4);
+    text-transform: uppercase;
+}
+.container{
+    width: 800px;
+}
+.Resume {
+    padding: 30px;
+    border: solid black 10px;
+}
+.Details{
+    list-style-type: none;
+}
+.Header{
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+
+}
+.pointers{
+    margin-top: 5px;
+    display: grid;
+    grid-template-columns: 0.7fr 3fr;
+
+}
+.title{
+    font-weight: bold;
+    color: black;
+}
+
+.workcontent{
+    margin-top: 5px;
+}
+.content{
+    padding: 10px;
+}
+.context{
+    list-style-type: none;
+    max-height: 120px;
+    overflow-x: auto;
+
+}
+
+img{
+    padding: 3px;
+    margin: 5px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+
+
+
+/* LeftsideEnd */

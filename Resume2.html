@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- html2pdf CDN-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.js"></script>
+    <link rel="stylesheet" href="StyleResume2.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+        <button id="button">Generate PDF</button>
+
+        <div class="Resume" id="makepdf">
+            <div class="top" style="display: flex; justify-content: space-between; border-bottom: solid black 2px;">
+                <div class="Header">
+                    <h1 id="Nametitle">James Stele</h1>
+                </div>
+                <div class="topright">
+                    <div class="Details">
+                        <ul>
+                            <li>
+                                <div class="loc">Atlanta</div>
+                            </li>
+                            <li>
+                                <div class="Phno">(555) 555-555</div>
+                            </li>
+                            <li>
+                                <div><a href="mailto:someone@yoursite.com" class="email" ></a></div>
+                            </li>
+
+
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="content">
+                <div class="profs pointers">
+                    <h4>PROFESSIONAL SUMMARY</h4>
+                    <div class="content" id="summary">
+                    </div>
+                </div>
+                   <div class="skills-right pointers">
+                       <h4>Skills</h4>
+                       <ul id="skills" class="context">
+                       </ul>
+                   </div>
+                <div class="Work pointers">
+                    <h4>Work History</h4>
+                    <div class="content">
+                        <ul id="workhis"></ul>
+                    </div>
+                </div> 
+
+             
+                <div class="skills-right pointers">
+                    <h4>Education</h4>
+                    <ul id="Education">
+                    </ul>
+                </div>
+                <div class="skills-right pointers">
+                    <h4>AFFILIATIONS</h4>
+                    <ul id="aff"></ul>
+                </div>
+
+
+
+            </div>
+
+
+        </div>
+    </div>
+
+    <script>
+        var button = document.getElementById("button");
+        var makepdf = document.getElementById("makepdf");
+
+        button.addEventListener("click", function () {
+            html2pdf().from(makepdf).save();
+        });
+    </script>
+    <script src="Scripts/Scripts2.js"></script>
+</body>
+
+</html>

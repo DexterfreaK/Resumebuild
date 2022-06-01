@@ -1,9 +1,11 @@
 const returnData = localStorage.getItem('data_string');
 const returnDataparsed = JSON.parse(returnData);
 
+
 document.getElementById("Nametitle").textContent = returnDataparsed.Name; 
 document.getElementsByClassName("loc")[0].innerText = returnDataparsed.Location;
 document.getElementsByClassName("Phno")[0].innerText = returnDataparsed.phone;
+document.getElementsByClassName("email")[0].href = `mailto:${returnDataparsed.Email}`;
 document.getElementsByClassName("email")[0].innerText = returnDataparsed.Email;
 document.getElementById("summary").innerText = returnDataparsed.summary;
 
