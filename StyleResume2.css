@@ -13,9 +13,7 @@ h4{
 
 .Resume {
     padding: 80px;
-    
-    border: solid black 10px;
-    min-height: 1000px;
+    min-height: 800px;
 }
 .Details{
    text-align: right;
