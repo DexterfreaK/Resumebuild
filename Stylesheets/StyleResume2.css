@@ -49,6 +49,7 @@ h4{
     list-style-type: none;
     max-height: 120px;
     overflow-x: auto;
+    padding-left: 50px;
 }
 #summary{
     padding: 40px;
