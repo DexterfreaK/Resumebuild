@@ -16,7 +16,7 @@
     <div class="container p-3 mb-2 bg-light text-dark">
         <h1 class="text-center display-3">Résumé Builder</h1>
 
-        <form class="Forms">
+        <form class="Forms" onsubmit="GetData()">
             <div class="Basic collectbox">
                 <h4>Basic Details</h4>
                 <div class="form-group">
@@ -118,7 +118,7 @@
 
             </div>
             <div class="container text-center">
-                <button class="btn btn-outline-primary btn-block" role="button" onclick="GetData()">
+                <button class="btn btn-outline-primary btn-block" type="submit" role="button">
                     Submit</button>
             </div>
 

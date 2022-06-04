@@ -26,11 +26,11 @@ function GetData() {
 }
 
 function NewDatafield(name,list,type = true ){
-    var _ = document.getElementById(list);
+    var field = document.getElementById(list);
     if(type)
-    _.innerHTML += `<li> <input type="text" class="form-control mt-3 " id="${name}" placeholder="${name}"></li>`;
+        field.innerHTML += `<li> <input type="text" class="form-control mt-3 " id="${name}" placeholder="${name}"></li>`;
     else
-        _.innerHTML += `<li><textarea class="form-control" id="workhis" rows="5"></textarea></li>`;
+        field.innerHTML += `<li><textarea class="form-control" id="workhis" rows="5"></textarea></li>`;
 }
 
 function returnlist(id){
